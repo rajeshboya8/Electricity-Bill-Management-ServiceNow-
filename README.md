@@ -45,10 +45,5 @@ The system automates bill generation, payment tracking, and notifications with a
 
 ---
 
-## 📷 Screenshots (Optional)
-Add screenshots of your ServiceNow UI Builder pages, dashboards, and sample email notification here.
-
----
-
 ## 📜 License
 This project was created for educational purposes to demonstrate *ServiceNow development skills*.
