@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_bill_no</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate bill details</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var billnumber = g_form.getValue('u_bill_no');  // sys_id of selected bill
+
+   var ga = new GlideAjax('Autopopulatebilldetails');
+   ga.addParam('sysparm_name', 'getbilldetails');
+   ga.addParam('sysparm_billid', billnumber);   // pass sys_id to Script Include
+   ga.getXMLAnswer(function(response) {
+      var res = JSON.parse(response);
+      if (res.billamt) {
+         g_form.setValue('u_bill_amount', res.billamt);  // set value in form field
+      } else if (res.error) {
+         g_form.showFieldMsg('u_bill_no', res.error, 'error');
+      }
+   });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-01 11:03:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d640a48ec318721033d9b34ed40131f8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Populate bill details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope>
+        <sys_update_name>sys_script_client_d640a48ec318721033d9b34ed40131f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-01 14:12:08</sys_updated_on>
+        <table>u_electricity_payment_receipt</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

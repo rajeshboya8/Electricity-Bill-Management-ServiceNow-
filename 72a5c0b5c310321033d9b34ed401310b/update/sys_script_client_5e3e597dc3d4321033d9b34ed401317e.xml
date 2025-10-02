@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Electricity present Bill date</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(g_form.isNewRecord())
+   {
+	var present = new Date().getTimezoneOffset();
+	var today = new Date(Date.now() - (present*60*1000));
+
+	var formattedDate= today.toLocaleDateString('en-US');
+	var formattedTime = today.toLocaleTimeString('en-US');
+
+	g_form.setValue('u_present_bill_date',formattedDate + " "+formattedTime);
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-30 20:47:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e3e597dc3d4321033d9b34ed401317e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Electricity present Bill date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope>
+        <sys_update_name>sys_script_client_5e3e597dc3d4321033d9b34ed401317e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-01 07:48:27</sys_updated_on>
+        <table>u_electricity_bill</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

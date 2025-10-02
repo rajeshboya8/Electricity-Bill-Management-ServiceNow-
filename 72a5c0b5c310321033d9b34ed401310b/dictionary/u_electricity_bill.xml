@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d2e38975c354321033d9b34ed4013178" label="Electricity Bill" max_length="40" name="u_electricity_bill" type="collection">
+        <element label="Present Bill Reading" max_length="40" name="u_present_bill_reading" type="integer"/>
+        <element label="Disc Date" max_length="40" name="u_disc_date" type="glide_date"/>
+        <element label="Fixed Charges" max_length="40" name="u_fixed_charges" type="integer"/>
+        <element label="Subsidy Amount" max_length="40" name="u_subsidy_amount" type="integer"/>
+        <element label="Energy Charges" max_length="40" name="u_energy_charges" type="integer"/>
+        <element label="ED" max_length="40" name="u_ed" type="integer"/>
+        <element label="Previous Bill Reading" max_length="40" name="u_previous_bill_reading" type="integer"/>
+        <element label="Last Paid" max_length="40" name="u_last_paid" type="glide_date"/>
+        <element label="Addl Charges" max_length="40" name="u_addl_charges" type="integer"/>
+        <element label="Last Paid Amount" max_length="40" name="u_last_paid_amount" type="integer"/>
+        <element label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>
+        <element label="Days" max_length="40" name="u_days" type="integer"/>
+        <element label="USCNO" max_length="32" name="u_uscno" reference="u_electricity_consumer_details" type="reference"/>
+        <element label="Previous Bill Date" max_length="40" name="u_previous_bill_date" type="glide_date"/>
+        <element label="ED INT" max_length="40" name="u_ed_int" type="integer"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Bill No" max_length="40" name="u_bill_no" type="string" use_dynamic_default="true"/>
+        <element label="Total Amount" max_length="40" name="u_total_amount" type="integer"/>
+        <element label="Customer Charges" max_length="40" name="u_customer_charges" type="integer"/>
+        <element label="Subsidy/Unit" max_length="40" name="u_subsidy_unit" type="integer"/>
+        <element label="Present Bill Date" max_length="40" name="u_present_bill_date" type="string"/>
+        <element label="Units" max_length="40" name="u_units" type="integer"/>
+        <index name="index">
+            <element name="u_uscno"/>
+        </index>
+    </element>
+</database>
