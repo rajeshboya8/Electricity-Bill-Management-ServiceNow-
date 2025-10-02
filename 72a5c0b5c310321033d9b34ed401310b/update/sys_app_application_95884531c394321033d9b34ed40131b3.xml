@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Electricity Bill </name>
+        <order>100</order>
+        <roles>u_electricity_bill_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-30 19:03:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95884531c394321033d9b34ed40131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Electricity Bill </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope>
+        <sys_update_name>sys_app_application_95884531c394321033d9b34ed40131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-30 19:03:03</sys_updated_on>
+        <title>Electricity Bill </title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd7a7f71c354721033d9b34ed40131b6" label="Electricity Payment Receipt" max_length="40" name="u_electricity_payment_receipt" type="collection">
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Receipt Number" max_length="40" name="u_receipt_number" type="string" use_dynamic_default="true"/>
+        <element label="Amount in Words" max_length="40" name="u_amount_in_words" type="string"/>
+        <element label="Paid Amount" max_length="40" name="u_paid_amount" type="integer"/>
+        <element label="Received Person Department" max_length="32" name="u_received_person_department" reference="cmn_department" type="reference"/>
+        <element label="Received Person Name" max_length="40" name="u_received_person_name" type="string"/>
+        <element label="Balance Due" max_length="40" name="u_balance_due" type="integer"/>
+        <element label="Bill Amount" max_length="40" name="u_bill_amount" type="integer"/>
+        <element label="Bill No" max_length="32" name="u_bill_no" reference="u_electricity_bill" type="reference"/>
+        <element label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <index name="index">
+            <element name="u_bill_no"/>
+        </index>
+        <index name="index2">
+            <element name="u_received_person_department"/>
+        </index>
+    </element>
+</database>

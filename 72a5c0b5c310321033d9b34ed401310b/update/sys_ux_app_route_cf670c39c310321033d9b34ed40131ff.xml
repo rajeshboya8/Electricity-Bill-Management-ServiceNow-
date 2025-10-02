@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config/>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>home</name>
+        <optional_parameters>query,extraParams,views,selectedTab</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="home">cb67c839c310321033d9b34ed40131ad</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-30 14:18:38</sys_created_on>
+        <sys_id>cf670c39c310321033d9b34ed40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>home</sys_name>
+        <sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope>
+        <sys_update_name>sys_ux_app_route_cf670c39c310321033d9b34ed40131ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-30 14:18:38</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf670c39c310321033d9b34ed40131ff"/>
+</record_update>

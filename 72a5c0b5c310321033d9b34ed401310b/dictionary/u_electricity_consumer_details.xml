@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2ff8a8b5c3d0321033d9b34ed40131f0" label="Electricity Consumer Details" max_length="40" name="u_electricity_consumer_details" type="collection">
+        <element label="ERO" max_length="40" name="u_ero" type="integer"/>
+        <element label="Pole No" max_length="40" name="u_pole_no" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="USCNO" max_length="40" name="u_uscno" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <element label="SCNO" max_length="40" name="u_scno" type="string"/>
+        <element label="IRDA Version" max_length="40" name="u_irda_version" type="integer"/>
+        <element label="Address" max_length="40" name="u_address" type="string"/>
+        <element label="SEC" max_length="40" name="u_sec" type="integer"/>
+        <element label="Phase" max_length="1" name="u_phase" type="integer"/>
+        <element label="Area" max_length="40" name="u_area" type="string"/>
+        <element label="Load in KW" max_length="40" name="u_load_in_kw" type="integer"/>
+        <element label="Cat" max_length="40" name="u_cat" type="string"/>
+        <element label="GRP" max_length="1" name="u_grp" type="string"/>
+        <element label="STR Code" max_length="40" name="u_str_code" type="string"/>
+        <element label="SBM ID" max_length="40" name="u_sbm_id" type="string"/>
+        <element label="Cycle" max_length="2" name="u_cycle" type="string"/>
+    </element>
+</database>

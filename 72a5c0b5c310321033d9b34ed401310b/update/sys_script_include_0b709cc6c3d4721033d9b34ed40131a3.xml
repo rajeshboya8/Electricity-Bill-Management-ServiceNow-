@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.Autopopulatebilldetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Autopopulatebilldetails</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Autopopulatebilldetails = Class.create();
+Autopopulatebilldetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getbilldetails: function() {
+        var billid = this.getParameter('sysparm_billid');  // passed from client
+        var obj = {};
+
+        if (!billid) {
+            obj.error = "No Bill selected";
+            return JSON.stringify(obj);
+        }
+
+        var grbill = new GlideRecord('u_electricity_bill');
+        if (grbill.get(billid)) {
+            obj.billamt = grbill.getValue('u_total_amount');  // fetch bill amount
+        } else {
+            obj.error = "Bill not found";
+        }
+
+        return JSON.stringify(obj);
+    }
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-01 09:56:17</sys_created_on>
+        <sys_id>0b709cc6c3d4721033d9b34ed40131a3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Autopopulatebilldetails</sys_name>
+        <sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope>
+        <sys_update_name>sys_script_include_0b709cc6c3d4721033d9b34ed40131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-01 15:00:00</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0b709cc6c3d4721033d9b34ed40131a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-01 10:40:16</sys_created_on>
+        <sys_id>1e0fdccac318721033d9b34ed4013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-01 10:40:16</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

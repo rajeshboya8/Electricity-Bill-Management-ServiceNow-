@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>e39648f5c310321033d9b34ed4013124</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>electricity-bill</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-30 14:15:07</sys_created_on>
+        <sys_id>2b9648f5c310321033d9b34ed4013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Electricity Bill</sys_name>
+        <sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope>
+        <sys_update_name>sys_ux_page_registry_2b9648f5c310321033d9b34ed4013127</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-30 14:15:07</sys_updated_on>
+        <title>Electricity Bill</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</application>
+        <file_path/>
+        <instance_id>6caa9f221b49ce58c8432f8dee4bcbe4</instance_id>
+        <instance_name>dev249515</instance_name>
+        <name>sys_ux_page_registry_2b9648f5c310321033d9b34ed4013127</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>e39648f5c310321033d9b34ed4013124</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>electricity-bill</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-30 14:15:07</sys_created_on><sys_id>2b9648f5c310321033d9b34ed4013127</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Electricity Bill</sys_name><sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package><sys_policy/><sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope><sys_update_name>sys_ux_page_registry_2b9648f5c310321033d9b34ed4013127</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-30 14:15:07</sys_updated_on><title>Electricity Bill</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>2066348322</payload_hash>
+        <record_name>Electricity Bill</record_name>
+        <reverted_from/>
+        <source>bf6ab59c198312104f3423cebaaa858d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-30 14:15:07</sys_created_on>
+        <sys_id>6f9688f5c310321033d9b34ed401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1999afa1ec70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-30 14:15:07</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>6f9648f5a3103210d10511f3614b8c2a</update_guid>
+        <update_guid_history>6f9648f5a3103210d10511f3614b8c2a:2066348322</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-30 14:22:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>23fe7c182e7043f08c68bdaf963ba3a1</sys_id>
+        <sys_metadata>2b9648f5c310321033d9b34ed4013127</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Electricity Bill</sys_name>
+        <sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope>
+        <sys_scope_delete display_value="">0c4f24d6575c47d28384c2c13a7c08b9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_2b9648f5c310321033d9b34ed4013127</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_2b9648f5c310321033d9b34ed4013127">6f9688f5c310321033d9b34ed401316e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-30 14:22:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

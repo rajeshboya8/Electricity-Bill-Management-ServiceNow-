@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_electricity_bill" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_addl_charges</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>ba0fcd39c394321033d9b34ed401312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_bill_no</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>be0fcd39c394321033d9b34ed401312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_customer_charges</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>b20fcd39c394321033d9b34ed401312e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_days</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>b60fcd39c394321033d9b34ed401312e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_due_date</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>ba0fcd39c394321033d9b34ed401312e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ed</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>be0fcd39c394321033d9b34ed401312e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ed_int</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>b20fcd39c394321033d9b34ed401312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_energy_charges</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>b60fcd39c394321033d9b34ed401312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_fixed_charges</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>ba0fcd39c394321033d9b34ed401312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_last_paid</element>
+            <list_id display_value="u_electricity_bill" element="NULL" name="u_electricity_bill" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fe0fcd39c394321033d9b34ed401312c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_id>be0fcd39c394321033d9b34ed401312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_electricity_bill</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-30 19:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe0fcd39c394321033d9b34ed401312c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_electricity_bill</sys_name>
+            <sys_package display_value="Electricity Bill" source="72a5c0b5c310321033d9b34ed401310b">72a5c0b5c310321033d9b34ed401310b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electricity Bill">72a5c0b5c310321033d9b34ed401310b</sys_scope>
+            <sys_update_name>sys_ui_list_u_electricity_bill_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-30 19:31:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
